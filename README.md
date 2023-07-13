@@ -54,6 +54,8 @@ All the aforementioned files come included in the source code.
 ## Build:
 If you want to skip the manual build, you can download the finished installers for free at itch.io: here for [macOS and Windows](https://spacemonkeyalfa.itch.io/macagotchi).  Raspeberry Pi coming soon!
 
+## How to use:
+Download the .zip or clone the repository. Run macagotchi.py .
 
 ## License:
 [MIT LICENSE](https://github.com/SpaceMonkeyAlfa/macagotchi-macos/blob/main/LICENSE)
