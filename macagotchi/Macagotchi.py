@@ -202,7 +202,8 @@ while carryOn:
     if actualTime == 120:
         face = normal
   #Adds a delay to the scan time after scanning 3 times
-
+    if scanTimes > 2:
+            scanDelay = 16200
 #scanning animation
     if timer == 1800+scanDelay:
         if longestStreak < streak:
