@@ -4,7 +4,7 @@ Macagotchi is a virtual pet application that runs on a computer ([macOS](https:/
 
 As pwnagotchi’s less sinister cousin it only collects SSIDs to keep score, which it keeps locally in a hashed log. It doesn’t export data, and doesn’t contain any marketing or tracking code. By design, if you want to share how many SSIDs you’ve collected and/or how happy your Macagotchi is, take a screenshot.
 
-If you’d prefer not to do a step by step install of the source code, you can download the finished installers: for [macOS and Windows](https://spacemonkeyalfa.itch.io/macagotchi).
+If you’d prefer not to do a step by step install of the source code, you can download the finished installers: for [macOS and Windows](macagotchi.com).
 
 A Raspberry Pi version is currently in development and I’ll be releasing the code and hardware specs very soon.
 
@@ -18,7 +18,7 @@ A Raspberry Pi version is currently in development and I’ll be releasing the c
    - Users can press fn+F2 to edit their Macagotchi’s name and press return to save it.
 
 3. ### Wi-Fi Network Scanning:
-   - The program scans for nearby Wi-Fi networks using the amazing [winwifi python library](https://github.com/changyuheng/winwifi) made by changyuheng.
+   - The program scans for nearby Wi-Fi networks using a modified version of the amazing [winwifi python library](https://github.com/changyuheng/winwifi) made by changyuheng.
    - It retrieves the list of network SSIDs 
    - Scanned networks are hashed and then stored in a file for future reference.
 
@@ -36,7 +36,7 @@ A Raspberry Pi version is currently in development and I’ll be releasing the c
 [pygame library](https://www.pygame.org/news):<br>
  Macagotchi uses pygame to display an application window. `pip install pygame`<br><br>
 [winwifi](https://github.com/changyuheng/winwifi):<br>
-Macagotchi uses [winwifi](https://github.com/changyuheng/winwifi) (made by changyuheng) to scan for networks on windows. `pip install winwifi`<br><br>
+Macagotchi uses a modified version of [winwifi](https://github.com/changyuheng/winwifi) (made by changyuheng) to scan for networks on windows. To install the modified version,run `pip install git+https://github.com/SpaceMonkeyAlfa/winwifi`<br><br>
 [pyinstaller](https://pyinstaller.org/en/stable/):<br>
  Not necessary, but if you want to package the source code into an exe, pyinstaller is very helpful. `pip install pyinstaller`
 
@@ -45,18 +45,18 @@ Macagotchi uses [winwifi](https://github.com/changyuheng/winwifi) (made by chang
 - **logo.png:** Represents the logo image used for the program.
 - **logo.ico:** Used for packaging in PyInstaller to produce the icon of the .app or .exe
 - **address.txt:** Stores the hashed addresses of scanned Wi-Fi networks.
-- l**ongestStreak.txt**: Stores the longest streak of consecutive program usage.
+- **longestStreak.txt**: Stores the longest streak of consecutive program usage.
 - **stats.txt**: Stores the Macagotchi’s name.
 - **loyalty.txt**: Stores dates of consecutive program usage.
 - **totalLog.txt**: Stores the total number of Wi-Fi networks scanned.
-All the aforementioned files come included in the source code.
+
 
 ## Build:
-If you want to skip the manual build, you can download the finished installers for free at itch.io: here for [macOS and Windows](https://spacemonkeyalfa.itch.io/macagotchi).  Raspeberry Pi coming soon!
+If you want to skip the manual build, you can download the finished installers for free at itch.io: here for [macOS and Windows](macagotchi.com).  Raspeberry Pi coming soon!
 
 ## How to use:
 Download the .zip or clone the repository. Run macagotchi.py .
 
 ## License:
-[MIT LICENSE](https://github.com/SpaceMonkeyAlfa/macagotchi-macos/blob/main/LICENSE)
+[Mozzila 2.0](https://github.com/SpaceMonkeyAlfa/macagotchi-macos/blob/main/LICENSE)
 
