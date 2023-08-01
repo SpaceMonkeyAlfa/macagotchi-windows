@@ -19,7 +19,7 @@ A Raspberry Pi version is currently in development and I’ll be releasing the c
 
 3. ### Wi-Fi Network Scanning:
    - The program scans for nearby Wi-Fi networks using a modified version of the amazing [winwifi python library](https://github.com/changyuheng/winwifi) made by changyuheng.
-   - It retrieves the list of network SSIDs 
+   - It retrieves the list of network SSIDs.
    - Scanned networks are hashed and then stored in a file for future reference.
 
 4. ### Loyalty and Streak Tracking:
@@ -30,8 +30,8 @@ A Raspberry Pi version is currently in development and I’ll be releasing the c
    - Your Macagotchi will leave messages on the screen, explaining to users how it feels and giving you suggestions on how to help it feel better. For example, when a Macagotchi is hungry, the on screen message might say “Can we go on a walk?”, or when your Macagotchi is waking up, the message might read “I’ve been asleep for x days.”
 6. ### War Driving Mode:
    - Pressing "w" toggles between war driving and normal mode.
-   - In normal mode, the first scan will happen 30 seconds after startup, and then 5 minutes for every scan after that
-   - In wardriving mode, every scan happens 30 seconds after the last.
+   - In normal mode, the first scan will happen 30 seconds after startup, and then 5 minutes for every scan after that.
+   - In war driving mode, every scan happens 30 seconds after the last.
    - By default, war driving mode is switched off.
 
 ## Dependencies:
