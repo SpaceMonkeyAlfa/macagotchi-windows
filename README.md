@@ -40,7 +40,7 @@ A Raspberry Pi version is currently in development and I’ll be releasing the c
 [pygame library](https://www.pygame.org/news):<br>
  Macagotchi uses pygame to display an application window. `pip install pygame`<br><br>
 [winwifi](https://github.com/changyuheng/winwifi):<br>
-Macagotchi uses a modified version of [winwifi](https://github.com/changyuheng/winwifi) (made by changyuheng) to scan for networks on windows. To install the modified version,run `pip install git+https://github.com/SpaceMonkeyAlfa/winwifi`<br><br>
+Macagotchi uses a [modified version](https://github.com/SpaceMonkeyAlfa/winwifi) of [winwifi](https://github.com/changyuheng/winwifi) (made by changyuheng) to scan for networks on windows. To install the modified version,run `pip install git+https://github.com/SpaceMonkeyAlfa/winwifi`<br><br>
 [pyinstaller](https://pyinstaller.org/en/stable/):<br>
  Not necessary, but if you want to package the source code into an exe, pyinstaller is very helpful. `pip install pyinstaller`
 
