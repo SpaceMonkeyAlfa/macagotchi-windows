@@ -18,7 +18,7 @@ A Raspberry Pi version is currently in development and I’ll be releasing the c
    - Users can press F2 / fn+F2 to edit their Macagotchi’s name and press return to save it.
 
 3. ### Wi-Fi Network Scanning:
-   - The program scans for nearby Wi-Fi networks using a modified version of the amazing [winwifi python library](https://github.com/changyuheng/winwifi) made by changyuheng.
+   - The program scans for nearby Wi-Fi networks using a [modified version](https://github.com/SpaceMonkeyAlfa/winwifi) of the amazing [winwifi python library](https://github.com/changyuheng/winwifi) made by changyuheng.
    - It retrieves the list of network SSIDs.
    - Scanned networks are hashed and then stored in a file for future reference.
 
