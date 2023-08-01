@@ -15,7 +15,7 @@ A Raspberry Pi version is currently in development and I’ll be releasing the c
    - The pet's image changes based on various conditions and events.
 
 2. ### Naming:
-   - Users can press F2 / fn+F2 to edit their Macagotchi’s name and press return to save it.
+   - Users can press F2 to edit their Macagotchi’s name and press return to save it.
 
 3. ### Wi-Fi Network Scanning:
    - The program scans for nearby Wi-Fi networks using a [modified version](https://github.com/SpaceMonkeyAlfa/winwifi) of the amazing [winwifi python library](https://github.com/changyuheng/winwifi) made by changyuheng.
