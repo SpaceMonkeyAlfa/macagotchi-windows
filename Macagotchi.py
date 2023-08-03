@@ -187,6 +187,8 @@ while carryOn:
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_w:
                 wardriving = not wardriving
+                if scanTimes > 0:
+                        timer = 0
             # Check for backspace
             if event.key == pygame.K_F2:
                 typing = True
@@ -215,7 +217,7 @@ while carryOn:
     if actualTime == 120:
         face = normal
   #Adds a delay to the scan time after scanning 3 times
-    if wardriving and scanTimes > 1:
+    if wardriving and scanTimes > 0:
         scanDelay = -16200
     else:
         scanDelay = 0
