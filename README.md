@@ -56,7 +56,7 @@ Macagotchi uses a [modified version](https://github.com/SpaceMonkeyAlfa/winwifi)
 
 
 ## Build:
-If you want to skip the manual build, you can download the finished installers for free at itch.io: here for [MacOS and Windows](http://macagotchi.com). Raspberry Pi codebase is also available [here](https://github.com/SpaceMonkeyAlfa/macagotchi-pi)
+If you want to skip the manual build, you can download the finished installers for free at itch.io: here for [MacOS and Windows](http://macagotchi.com). Raspberry Pi codebase is also available [here](https://github.com/SpaceMonkeyAlfa/macagotchi-pi).
 
 ## How to use:
 Download the .zip or clone the repository. Run macagotchi.py .
